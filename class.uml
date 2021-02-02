@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_gNrjAF-1EeuZWZiiqa-O4w" name="NewModel">
+  <packagedElement xmi:type="uml:Class" xmi:id="_MWZdQF-6EeuZWZiiqa-O4w" name="FogOfWar" visibility="public">
+    <ownedAttribute xmi:id="_Zh51QF-6EeuZWZiiqa-O4w" name="sint16" visibility="protected" type="_lsydwF-6EeuZWZiiqa-O4w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Zh6cUF-6EeuZWZiiqa-O4w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Zh6cUV-6EeuZWZiiqa-O4w" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_hI9tQF-6EeuZWZiiqa-O4w" name="MapWidth" visibility="protected" type="_lsydwF-6EeuZWZiiqa-O4w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hI-UUF-6EeuZWZiiqa-O4w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hI-UUV-6EeuZWZiiqa-O4w" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_i9saQF-6EeuZWZiiqa-O4w" name="MapHeight" visibility="protected" type="_lsydwF-6EeuZWZiiqa-O4w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_i9tBUF-6EeuZWZiiqa-O4w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_i9tBUV-6EeuZWZiiqa-O4w" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_xlg_QF-6EeuZWZiiqa-O4w" name="MinX" visibility="protected" type="_m66dwF-6EeuZWZiiqa-O4w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xlhmUF-6EeuZWZiiqa-O4w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xlhmUV-6EeuZWZiiqa-O4w" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_0JsMMF-6EeuZWZiiqa-O4w" name="MinY" visibility="protected" type="_m66dwF-6EeuZWZiiqa-O4w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0JszQF-6EeuZWZiiqa-O4w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0JszQV-6EeuZWZiiqa-O4w" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_LySYsF-8EeuZWZiiqa-O4w" name="MaxX" visibility="protected" type="_m66dwF-6EeuZWZiiqa-O4w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LySYsV-8EeuZWZiiqa-O4w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LyS_wF-8EeuZWZiiqa-O4w" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_OZwKMF-8EeuZWZiiqa-O4w" name="MaxY" visibility="protected" type="_m66dwF-6EeuZWZiiqa-O4w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OZwKMV-8EeuZWZiiqa-O4w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OZwKMl-8EeuZWZiiqa-O4w" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_lsydwF-6EeuZWZiiqa-O4w" name="Int" visibility="public"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_m66dwF-6EeuZWZiiqa-O4w" name="Float" visibility="public"/>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_cUwlIF-_EeuZWZiiqa-O4w" name="ItemFamily" visibility="public">
+    <ownedAttribute xmi:id="_g_NiEF-_EeuZWZiiqa-O4w" name="UNDEFINED" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_g_OJIF-_EeuZWZiiqa-O4w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_g_OJIV-_EeuZWZiiqa-O4w" value="1"/>
+    </ownedAttribute>
+    <ownedLiteral xmi:id="_jT7WsF-_EeuZWZiiqa-O4w" name="Undefines"/>
+    <ownedLiteral xmi:id="_jdrvoF-_EeuZWZiiqa-O4w" name="Service"/>
+    <ownedLiteral xmi:id="_jfgUkF-_EeuZWZiiqa-O4w" name="Armor"/>
+    <ownedLiteral xmi:id="_mXE-oF-_EeuZWZiiqa-O4w" name="Etc..."/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_4qu8MF-_EeuZWZiiqa-O4w" name="uint32" visibility="public"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_6XsNQF-_EeuZWZiiqa-O4w" name="sint32" visibility="public"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_8lHHEF-_EeuZWZiiqa-O4w" name="Item_info" visibility="public">
+    <ownedAttribute xmi:id="_-Qr4EF-_EeuZWZiiqa-O4w" name="Hp" visibility="public" type="_4qu8MF-_EeuZWZiiqa-O4w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-Qr4EV-_EeuZWZiiqa-O4w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-QsfIF-_EeuZWZiiqa-O4w" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_BFuykF_AEeuZWZiiqa-O4w" name="HpMax" visibility="public" type="_4qu8MF-_EeuZWZiiqa-O4w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BFvZoF_AEeuZWZiiqa-O4w" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BFvZoV_AEeuZWZiiqa-O4w" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_HKrXkF_AEeuZWZiiqa-O4w" name="HiyRate" visibility="public" type="_m66dwF-6EeuZWZiiqa-O4w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HKrXkV_AEeuZWZiiqa-O4w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HKrXkl_AEeuZWZiiqa-O4w" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_KbH0oF_AEeuZWZiiqa-O4w" name="HpBuff" visibility="public" type="_6XsNQF-_EeuZWZiiqa-O4w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KbH0oV_AEeuZWZiiqa-O4w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KbH0ol_AEeuZWZiiqa-O4w" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_M3DrkF_AEeuZWZiiqa-O4w" name="etc ..." visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_M3DrkV_AEeuZWZiiqa-O4w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_M3Drkl_AEeuZWZiiqa-O4w" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_hhsHkF_AEeuZWZiiqa-O4w" name="EItemOrigin" visibility="public">
+    <ownedLiteral xmi:id="_h-c8EF_AEeuZWZiiqa-O4w" name="Common"/>
+    <ownedLiteral xmi:id="_iA5zIF_AEeuZWZiiqa-O4w" name="Fyros"/>
+    <ownedLiteral xmi:id="_iC9BkF_AEeuZWZiiqa-O4w" name="Matis"/>
+    <ownedLiteral xmi:id="_iM3ykF_AEeuZWZiiqa-O4w" name="Tryker"/>
+    <ownedLiteral xmi:id="_mFSOkF_AEeuZWZiiqa-O4w" name="Zorai"/>
+    <ownedLiteral xmi:id="_nGXREF_AEeuZWZiiqa-O4w" name="etc..."/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_8QMxkF_AEeuZWZiiqa-O4w" name="TItemType" visibility="public">
+    <ownedLiteral xmi:id="_9bqfIF_AEeuZWZiiqa-O4w" name="Dagger"/>
+    <ownedLiteral xmi:id="_9dVTEF_AEeuZWZiiqa-O4w" name="Sword"/>
+    <ownedLiteral xmi:id="_9feBEF_AEeuZWZiiqa-O4w" name="Mace"/>
+    <ownedLiteral xmi:id="_9hmIAF_AEeuZWZiiqa-O4w" name="Axe"/>
+    <ownedLiteral xmi:id="_9jqkkF_AEeuZWZiiqa-O4w" name="Spear"/>
+    <ownedLiteral xmi:id="_9lkpEF_AEeuZWZiiqa-O4w" name="Etc ..."/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_N0xbkF_BEeuZWZiiqa-O4w" name="EDamageType" visibility="public">
+    <ownedLiteral xmi:id="_PHeZkF_BEeuZWZiiqa-O4w" name="Slashing"/>
+    <ownedLiteral xmi:id="_PJADkF_BEeuZWZiiqa-O4w" name="Piercing"/>
+    <ownedLiteral xmi:id="_PKq3gF_BEeuZWZiiqa-O4w" name="Blunt"/>
+    <ownedLiteral xmi:id="_PMWSgF_BEeuZWZiiqa-O4w" name="Rot"/>
+    <ownedLiteral xmi:id="_POQ-EF_BEeuZWZiiqa-O4w" name="Acid"/>
+    <ownedLiteral xmi:id="_PQKbgF_BEeuZWZiiqa-O4w" name="Etc ..."/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_6HcN8F_DEeuZWZiiqa-O4w" name="MAGICFX" visibility="public">
+    <ownedAttribute xmi:id="_Jc0cgF_EEeuZWZiiqa-O4w" name="TSpellType" visibility="public" type="_9rVLcF_DEeuZWZiiqa-O4w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Jc0cgV_EEeuZWZiiqa-O4w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Jc0cgl_EEeuZWZiiqa-O4w" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_X5p5gF_EEeuZWZiiqa-O4w" name="TSpellMode" visibility="public" type="_QfjfcF_EEeuZWZiiqa-O4w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_X5p5gV_EEeuZWZiiqa-O4w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_X5p5gl_EEeuZWZiiqa-O4w" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_q3VEcF_EEeuZWZiiqa-O4w" name="TSpellCastStage" visibility="public" type="_eFYb8F_EEeuZWZiiqa-O4w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_q3VrgF_EEeuZWZiiqa-O4w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_q3VrgV_EEeuZWZiiqa-O4w" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_HLdocF_FEeuZWZiiqa-O4w" name="TMagicFx" visibility="public" type="_8Yd_8F_EEeuZWZiiqa-O4w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HLePgF_FEeuZWZiiqa-O4w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HLePgV_FEeuZWZiiqa-O4w" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_oBSO8F_FEeuZWZiiqa-O4w" name="TAuraFx" visibility="public" type="_gpBn8F_FEeuZWZiiqa-O4w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oBSO8V_FEeuZWZiiqa-O4w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oBSO8l_FEeuZWZiiqa-O4w" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_9rVLcF_DEeuZWZiiqa-O4w" name="TSpellType" visibility="public">
+    <ownedLiteral xmi:id="__mGPAF_DEeuZWZiiqa-O4w" name="Off"/>
+    <ownedLiteral xmi:id="__w7mAF_DEeuZWZiiqa-O4w" name="Cur"/>
+    <ownedLiteral xmi:id="__4LdgF_DEeuZWZiiqa-O4w" name="Mix"/>
+    <ownedLiteral xmi:id="__7_mgF_DEeuZWZiiqa-O4w" name="SpellTypeCount"/>
+    <ownedLiteral xmi:id="___u3AF_DEeuZWZiiqa-O4w" name="UnknownSpellType">
+      <ownedComment xmi:id="_Itt60F_EEeuZWZiiqa-O4w" annotatedElement="___u3AF_DEeuZWZiiqa-O4w">
+        <body>UnknownSpellType = SpellTypeCount</body>
+      </ownedComment>
+    </ownedLiteral>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_QfjfcF_EEeuZWZiiqa-O4w" name="TSpellMode" visibility="public">
+    <ownedLiteral xmi:id="_R97h8F_EEeuZWZiiqa-O4w" name="Bomb"/>
+    <ownedLiteral xmi:id="_SAEP8F_EEeuZWZiiqa-O4w" name="Chain"/>
+    <ownedLiteral xmi:id="_SCNlAF_EEeuZWZiiqa-O4w" name="Spray"/>
+    <ownedLiteral xmi:id="_SEakcF_EEeuZWZiiqa-O4w" name="SpellModeCount"/>
+    <ownedLiteral xmi:id="_SGZhcF_EEeuZWZiiqa-O4w" name="UnknownSpellMode">
+      <ownedComment xmi:id="_XC4pkF_EEeuZWZiiqa-O4w" annotatedElement="_SGZhcF_EEeuZWZiiqa-O4w">
+        <body>UnknownSpellMode = SpellModeCount,</body>
+      </ownedComment>
+    </ownedLiteral>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_eFYb8F_EEeuZWZiiqa-O4w" name="TSpellCastStage" visibility="public">
+    <ownedLiteral xmi:id="_gFQB8F_EEeuZWZiiqa-O4w" name="CastBegin"/>
+    <ownedLiteral xmi:id="_gIKMAF_EEeuZWZiiqa-O4w" name="CastLoop"/>
+    <ownedLiteral xmi:id="_gP8PAF_EEeuZWZiiqa-O4w" name="CastEnd"/>
+    <ownedLiteral xmi:id="_gSTmgF_EEeuZWZiiqa-O4w" name="CastFail"/>
+    <ownedLiteral xmi:id="_gVHp8F_EEeuZWZiiqa-O4w" name="SpellCastStageCount"/>
+    <ownedLiteral xmi:id="_gXpZgF_EEeuZWZiiqa-O4w" name="UnknownSpellCastStage">
+      <ownedComment xmi:id="_oND2kF_EEeuZWZiiqa-O4w" annotatedElement="_gXpZgF_EEeuZWZiiqa-O4w">
+        <body>UnknownSpellCastStage = SpellCastStageCount,</body>
+      </ownedComment>
+    </ownedLiteral>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_8Yd_8F_EEeuZWZiiqa-O4w" name="TMagicFx" visibility="public">
+    <ownedLiteral xmi:id="__PzZcF_EEeuZWZiiqa-O4w" name="Piercing"/>
+    <ownedLiteral xmi:id="_A0W8cF_FEeuZWZiiqa-O4w" name="Blunt"/>
+    <ownedLiteral xmi:id="_Bonq8F_FEeuZWZiiqa-O4w" name="Slashing"/>
+    <ownedLiteral xmi:id="_Dg2-8F_FEeuZWZiiqa-O4w" name="Cold"/>
+    <ownedLiteral xmi:id="_EXj9cF_FEeuZWZiiqa-O4w" name="Rot"/>
+    <ownedLiteral xmi:id="_FYB78F_FEeuZWZiiqa-O4w" name="etc ..."/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_gpBn8F_FEeuZWZiiqa-O4w" name="TAuraFx" visibility="public">
+    <ownedLiteral xmi:id="_hl1OcF_FEeuZWZiiqa-O4w" name="NoAura"/>
+    <ownedLiteral xmi:id="_h4rR8F_FEeuZWZiiqa-O4w" name="Divinity"/>
+    <ownedLiteral xmi:id="_h644cF_FEeuZWZiiqa-O4w" name="SpeedMove"/>
+    <ownedLiteral xmi:id="_h9eSYF_FEeuZWZiiqa-O4w" name="AuraSap"/>
+    <ownedLiteral xmi:id="_iCvz8F_FEeuZWZiiqa-O4w" name="AuraSta"/>
+    <ownedLiteral xmi:id="_iE4h8F_FEeuZWZiiqa-O4w" name="Etc ..."/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_L5nAUF_KEeuZWZiiqa-O4w" name="CEntityCL" visibility="public">
+    <ownedAttribute xmi:id="_P152wF_KEeuZWZiiqa-O4w" name="CurrentName" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_P152wV_KEeuZWZiiqa-O4w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_P152wl_KEeuZWZiiqa-O4w" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_SjGc0F_KEeuZWZiiqa-O4w" name="LoadingName" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SjGc0V_KEeuZWZiiqa-O4w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SjGc0l_KEeuZWZiiqa-O4w" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Wz3HYF_KEeuZWZiiqa-O4w" name="ApplyColor" type="_VcwxkF_KEeuZWZiiqa-O4w"/>
+    <ownedOperation xmi:id="_clK-sF_KEeuZWZiiqa-O4w" name="SetColors"/>
+    <ownedOperation xmi:id="_eD8CwF_KEeuZWZiiqa-O4w" name="showStaticFXs"/>
+    <ownedOperation xmi:id="_gDITUF_KEeuZWZiiqa-O4w" name="setEmissive"/>
+    <ownedOperation xmi:id="_hSxWQF_KEeuZWZiiqa-O4w" name="etc."/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_VcwxkF_KEeuZWZiiqa-O4w" name="Bool" visibility="public"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_o7W4QF_KEeuZWZiiqa-O4w" name="CCharacterCL" visibility="public">
+    <generalization xmi:id="_sLS_AF_KEeuZWZiiqa-O4w" general="_L5nAUF_KEeuZWZiiqa-O4w"/>
+  </packagedElement>
+</uml:Model>
